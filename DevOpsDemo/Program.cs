@@ -43,7 +43,7 @@ namespace DevOpsDemo
             }
             catch(Exception e)
             {
-                Console.WriteLine("Invalid Path");
+                Console.WriteLine("Invalid Path :"+e.Message);
                 Console.ReadLine();
             }
         }
