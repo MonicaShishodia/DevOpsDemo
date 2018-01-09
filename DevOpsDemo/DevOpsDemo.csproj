@@ -67,7 +67,7 @@
   </ItemGroup>
 
 <Target Name="ZipPublishOutput">
-    <Exec Command='powershell -nologo -noprofile -command "compress-archive -force -path $(SolutionDirectory)\* -destinationpath $(OutputPath).zip"' />
+    <Exec Command='powershell -nologo -noprofile -command "compress-archive -force -path '"$(SolutionDirectory)\*"' -destinationpath $(OutputPath)\DevOpsDemo.zip"' />
 
 </Target>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
