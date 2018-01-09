@@ -1,60 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<test-run id="2" testcasecount="1" result="Failed" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="1" engine-version="3.7.0.0" clr-version="2.0.50727.8762" start-time="2018-01-09 15:20:51Z" end-time="2018-01-09 15:20:52Z" duration="0.754032">
-  <command-line><![CDATA["C:\BackUp\Work\Test Solutions\DevOpsDemo\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit-console.exe"  ..\DevOpsDemo.Test\bin\Debug\DevOpsDemo.Test.dll]]></command-line>
-  <test-suite type="Assembly" id="0-1003" name="DevOpsDemo.Test.dll" fullname="C:\BackUp\Work\Test Solutions\DevOpsDemo\DevOpsDemo.Test\bin\Debug\DevOpsDemo.Test.dll" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2018-01-09 15:20:52Z" end-time="2018-01-09 15:20:52Z" duration="0.103537" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="1">
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="1" engine-version="3.7.0.0" clr-version="2.0.50727.8762" start-time="2018-01-09 17:39:16Z" end-time="2018-01-09 17:39:17Z" duration="0.764122">
+  <command-line><![CDATA["C:\BackUp\Work\Test Solutions\DevOpsDemo\\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit-console.exe"  ..\DevOpsDemo.Test\bin\Debug\DevOpsDemo.Test.dll --params Path=C:]]></command-line>
+  <test-suite type="Assembly" id="0-1003" name="DevOpsDemo.Test.dll" fullname="C:\BackUp\Work\Test Solutions\DevOpsDemo\DevOpsDemo.Test\bin\Debug\DevOpsDemo.Test.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-01-09 17:39:17Z" end-time="2018-01-09 17:39:17Z" duration="0.077607" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
     <environment framework-version="3.9.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.1.7601.65536" platform="Win32NT" cwd="C:\BackUp\Work\Test Solutions\DevOpsDemo\DevOpsDemo" machine-name="R90BWA9C" user="eqruuwq" user-domain="ERICSSON" culture="en-US" uiculture="en-US" os-architecture="x64" />
     <settings>
       <setting name="DisposeRunners" value="True" />
       <setting name="WorkDirectory" value="C:\BackUp\Work\Test Solutions\DevOpsDemo\DevOpsDemo" />
+      <setting name="TestParametersDictionary" value="[Path, C:]">
+        <item key="Path" value="C:" />
+      </setting>
+      <setting name="TestParameters" value="Path=C:" />
       <setting name="ImageRuntimeVersion" value="4.0.30319" />
-      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6.1" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6" />
       <setting name="ImageRequiresX86" value="False" />
       <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
       <setting name="NumberOfTestWorkers" value="4" />
     </settings>
     <properties>
-      <property name="_PID" value="12944" />
+      <property name="_PID" value="7268" />
       <property name="_APPDOMAIN" value="domain-" />
     </properties>
-    <failure>
-      <message><![CDATA[One or more child tests had errors]]></message>
-    </failure>
-    <test-suite type="TestSuite" id="0-1004" name="DevOpsDemo" fullname="DevOpsDemo" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2018-01-09 15:20:52Z" end-time="2018-01-09 15:20:52Z" duration="0.081709" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="1">
-      <failure>
-        <message><![CDATA[One or more child tests had errors]]></message>
-      </failure>
-      <test-suite type="TestSuite" id="0-1005" name="Test" fullname="DevOpsDemo.Test" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2018-01-09 15:20:52Z" end-time="2018-01-09 15:20:52Z" duration="0.080827" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="1">
-        <failure>
-          <message><![CDATA[One or more child tests had errors]]></message>
-        </failure>
-        <test-suite type="TestFixture" id="0-1000" name="UnitTest1" fullname="DevOpsDemo.Test.UnitTest1" classname="DevOpsDemo.Test.UnitTest1" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2018-01-09 15:20:52Z" end-time="2018-01-09 15:20:52Z" duration="0.077408" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="1">
-          <failure>
-            <message><![CDATA[One or more child tests had errors]]></message>
-          </failure>
-          <test-suite type="ParameterizedMethod" id="0-1002" name="TestInputPath" fullname="DevOpsDemo.Test.UnitTest1.TestInputPath" classname="DevOpsDemo.Test.UnitTest1" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2018-01-09 15:20:52Z" end-time="2018-01-09 15:20:52Z" duration="0.069863" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="1">
-            <failure>
-              <message><![CDATA[One or more child tests had errors]]></message>
-            </failure>
-            <test-case id="0-1001" name="TestInputPath()" fullname="DevOpsDemo.Test.UnitTest1.TestInputPath()" methodname="TestInputPath" classname="DevOpsDemo.Test.UnitTest1" runstate="Runnable" seed="1742568889" result="Failed" start-time="2018-01-09 15:20:52Z" end-time="2018-01-09 15:20:52Z" duration="0.063833" asserts="1">
-              <failure>
-                <message><![CDATA[  Expected: False
-  But was:  True
-]]></message>
-                <stack-trace><![CDATA[   at DevOpsDemo.Test.UnitTest1.TestInputPath() in C:\BackUp\Work\Test Solutions\DevOpsDemo\DevOpsDemo.Test\UnitTest1.cs:line 14
-]]></stack-trace>
-              </failure>
-              <output><![CDATA[Invalid Path :Value cannot be null.
-Parameter name: path
+    <test-suite type="TestSuite" id="0-1004" name="DevOpsDemo" fullname="DevOpsDemo" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-01-09 17:39:17Z" end-time="2018-01-09 17:39:17Z" duration="0.055395" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+      <test-suite type="TestSuite" id="0-1005" name="Test" fullname="DevOpsDemo.Test" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-01-09 17:39:17Z" end-time="2018-01-09 17:39:17Z" duration="0.054627" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+        <test-suite type="TestFixture" id="0-1000" name="UnitTest1" fullname="DevOpsDemo.Test.UnitTest1" classname="DevOpsDemo.Test.UnitTest1" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-01-09 17:39:17Z" end-time="2018-01-09 17:39:17Z" duration="0.051558" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <test-suite type="ParameterizedMethod" id="0-1002" name="TestInputPath" fullname="DevOpsDemo.Test.UnitTest1.TestInputPath" classname="DevOpsDemo.Test.UnitTest1" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-01-09 17:39:17Z" end-time="2018-01-09 17:39:17Z" duration="0.043357" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+            <test-case id="0-1001" name="TestInputPath()" fullname="DevOpsDemo.Test.UnitTest1.TestInputPath()" methodname="TestInputPath" classname="DevOpsDemo.Test.UnitTest1" runstate="Runnable" seed="627184384" result="Passed" start-time="2018-01-09 17:39:17Z" end-time="2018-01-09 17:39:17Z" duration="0.037109" asserts="1">
+              <output><![CDATA[
+############################
+
+Number of directories : 3
+
+############################
+
+C:\BackUp\Work\Test Solutions\DevOpsDemo\DevOpsDemo\bin
+C:\BackUp\Work\Test Solutions\DevOpsDemo\DevOpsDemo\obj
+C:\BackUp\Work\Test Solutions\DevOpsDemo\DevOpsDemo\Properties
+
+
+############################
+
+Number of files : 5
+
+############################
+
+C:\BackUp\Work\Test Solutions\DevOpsDemo\DevOpsDemo\App.config
+C:\BackUp\Work\Test Solutions\DevOpsDemo\DevOpsDemo\DevOpsDemo.csproj
+C:\BackUp\Work\Test Solutions\DevOpsDemo\DevOpsDemo\packages.config
+C:\BackUp\Work\Test Solutions\DevOpsDemo\DevOpsDemo\Program.cs
+C:\BackUp\Work\Test Solutions\DevOpsDemo\DevOpsDemo\TestResult.xml
 ]]></output>
-              <assertions>
-                <assertion result="Failed">
-                  <message><![CDATA[  Expected: False
-  But was:  True
-]]></message>
-                  <stack-trace><![CDATA[   at DevOpsDemo.Test.UnitTest1.TestInputPath() in C:\BackUp\Work\Test Solutions\DevOpsDemo\DevOpsDemo.Test\UnitTest1.cs:line 14
-]]></stack-trace>
-                </assertion>
-              </assertions>
             </test-case>
           </test-suite>
         </test-suite>

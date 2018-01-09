@@ -4,4 +4,4 @@ C:\BackUp\Work\Test Solutions\DevOpsDemo\DevOpsDemo\bin\Debug\DevOpsDemo.exe
 C:\BackUp\Work\Test Solutions\DevOpsDemo\DevOpsDemo\bin\Debug\DevOpsDemo.pdb
 C:\BackUp\Work\Test Solutions\DevOpsDemo\DevOpsDemo\obj\Debug\DevOpsDemo.exe
 C:\BackUp\Work\Test Solutions\DevOpsDemo\DevOpsDemo\obj\Debug\DevOpsDemo.pdb
-C:\BackUp\Work\Test Solutions\DevOpsDemo\DevOpsDemo\obj\Debug\DevOpsDemo.csprojResolveAssemblyReference.cache
+C:\BackUp\Work\Test Solutions\DevOpsDemo\DevOpsDemo\obj\Debug\devopsdemo.csprojResolveAssemblyReference.cache

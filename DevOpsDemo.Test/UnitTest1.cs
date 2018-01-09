@@ -8,6 +8,7 @@ namespace DevOpsDemo.Test
     public class UnitTest1
     {
         [TestCase]
+       // [Category("Fail")]
         public void TestInputPath()
         {
             Program obj = new Program();
