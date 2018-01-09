@@ -80,7 +80,7 @@
   </CreateItem>
 
 
-<Exec command="&quot;$(SolutionDirectory)\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit-console.exe&quot; @(TestAssembly) --params Path=C:"/>
+<Exec command="&quot;$(SolutionDirectory)\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit-console.exe&quot; @(TestAssembly) --params Path=H:"/>
   <Message Text="Tests ran successfully!"></Message>
 
 </Target>
