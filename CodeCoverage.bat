@@ -53,6 +53,3 @@ exit /b %errorlevel%
  -targetdir:"%~dp0\GeneratedReports\ReportGenerator Output"
 exit /b %errorlevel%
 
-:RunLaunchReport
-start "report" "%~dp0\GeneratedReports\ReportGenerator Output\index.htm"
-exit /b %errorlevel%
