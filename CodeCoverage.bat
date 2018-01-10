@@ -28,11 +28,6 @@ if %errorlevel% equ 0 (
  call :RunReportGeneratorOutput 
 )
 
-REM Launch the report
-if %errorlevel% equ 0 ( 
- call :RunLaunchReport 
-)
-exit /b %errorlevel%
 
 :RunOpenCoverUnitTestMetrics 
 REM *** Change the filter to include/exclude parts of the solution you want 
@@ -53,3 +48,6 @@ exit /b %errorlevel%
  -targetdir:"%~dp0\GeneratedReports\ReportGenerator Output"
 exit /b %errorlevel%
 
+:RunLaunchReport
+start "report" "%~dp0\GeneratedReports\ReportGenerator Output\index.htm"
+exit /b %errorlevel%
