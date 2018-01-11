@@ -23,15 +23,6 @@ if not exist "%~dp0GeneratedReports" mkdir "%~dp0GeneratedReports"
 REM Run the tests against the targeted output
 call :RunOpenCoverUnitTestMetrics
 
-REM Generate the report output based on the test results
-if %errorlevel% equ 0 ( 
- call :RunReportGeneratorOutput 
-)
-
-REM Launch the report
-if %errorlevel% equ 0 ( 
- call :RunLaunchReport 
-)
 exit /b %errorlevel%
 
 :RunOpenCoverUnitTestMetrics 
