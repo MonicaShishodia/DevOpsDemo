@@ -58,9 +58,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs">
-<SonarQubeExclude>true</SonarQubeExclude></Complie>
-    <Compile Include="Properties\AssemblyInfo.cs"><SonarQubeExclude>true</SonarQubeExclude> </Complie>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs"/>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
