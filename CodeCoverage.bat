@@ -34,7 +34,7 @@ REM *** to check for test coverage
  -filter:"+[*]* -[*.Test*]* -[*]*.*Config" ^
  -mergebyhash ^
  -skipautoprops ^
- -register:user ^
+ -register ^
  -output:"%~dp0GeneratedReports\CoverageReport.xml"
 exit /b %errorlevel%
 
