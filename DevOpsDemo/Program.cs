@@ -8,6 +8,9 @@ namespace DevOpsDemo
         {
             if (args.Length < 1)
             {
+                string testNoUse = null;
+                int testNoUse1 = 0;
+                object testNoUse2 = null;
                 Console.WriteLine("Please provide path");
                 Console.ReadLine();
             }
